@@ -10,11 +10,9 @@ spring:
   application:
     name: springcloud-provider-dept
 
-
-#eureka的配置，服务注册到哪里
 eureka:
   client:
-    service-url: #监控页面
+    service-url:
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
       
 ---
@@ -25,10 +23,8 @@ spring:
   application:
     name: springcloud-provider-dept
 
-
-#eureka的配置，服务注册到哪里
 eureka:
   client:
-    service-url: #监控页面
+    service-url:
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
       
